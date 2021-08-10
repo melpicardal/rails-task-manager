@@ -3,9 +3,9 @@
   <h1><%= @task.title  %> </h1>
   <p2><%= @task.details %> </p2>
   <% if @task.completed == true %>
-   <i class="fas fa-check-square">checked</i>
+   <i class="fas fa-check-square"> Completed</i>
     <% else %>
-    <i class="far fa-square">unchecked</i>
+    <i class="far fa-square"> Completed</i>
   <% end %>
 </div>
   <%= link_to "Back to List", tasks_path, class: 'btn btn-primary mt-3' %>
